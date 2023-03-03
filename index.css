@@ -1,0 +1,134 @@
+:root{
+    --main-bg-color: #2c2b2b;
+    --main-Font-color: #ffcd2b;
+    --shop-bg-color: #393939;
+}
+
+#Main{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex: 4 2;
+}
+body{
+    font-family: 'VT323', monospace;
+    margin: 0;
+     background-image: url("Ressources/Background/ShopBG.jpg");
+    background-repeat: repeat;
+    user-select: none /*empeche de selectionner du texte en double clickant */
+}
+
+#Target{
+background-color: var(--main-bg-color);
+}
+
+#Shop{
+
+    overflow-y: scroll;
+    width: 100%;
+    color:var(--main-Font-color);
+    height: 100vh;
+   
+}
+
+h2{
+    background-color: var(--main-bg-color);
+    text-align: center;
+    color:var(--main-Font-color);
+    font-size: 60px;
+    margin :10 10 ; 
+    border-style: dashed;
+    padding-bottom: 5;
+    
+}
+#Balance{
+    text-overflow: ellipsis;
+    margin :50 100 40; 
+    padding:20;
+    font-size: 40;
+    font-weight: bolder;
+    text-align: right;
+
+    background-color: var(--main-bg-color);
+    color:var(--main-Font-color);
+    text-shadow:var(--main-Font-color) 0px 0 10px;
+}
+
+
+
+progress#health{
+    width:100%;
+    color:green;
+    background-color: red;
+}
+
+.StatBox{
+    background-color:var(--main-Font-color) ;
+    color: var(--main-bg-color);
+    text-align:center;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
+.shopUpgradeBox{
+    background-color:var(--shop-bg-color);
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+    margin-bottom: 20;
+}
+
+.BtShopUpgrade{
+    background-color: var(--main-Font-color);
+    color: var(--main-bg-color);
+    padding: 10;
+    font-weight: bolder;
+    border-style: none;
+    flex:1;
+}
+.BtShopUpgrade:hover{
+    background-color: goldenrod;
+}
+
+.shopPriceTag{
+   
+    text-overflow: clip;
+  margin: 10 10 0;
+    font-size: 30;
+    font-weight: bolder;
+   
+}
+
+.ShopUpgradeDescription{
+    display: inline-block;
+    font-weight: bolder;
+    flex: 3;
+}
+
+#Log{
+    width: 99.5%;
+    height: 17vh;   
+
+    font-weight: bolder;
+    text-align: center;
+
+    border-style: dashed;
+    border-color: var(--main-Font-color);
+    background-color: var(--shop-bg-color);
+    color: var(--main-Font-color);  
+}
+red{
+    color: red;
+}
+
+green{
+    color: rgb(24, 214, 24);
+}
+
+#Reset{
+    background-color: red;
+    border-style: none;
+    position: relative;bottom: 30px;left:10;
+}
