@@ -6,6 +6,9 @@ Vous devez cliquer sur les monstres qui apparaissent à l'écran pour les attaqu
   
 Avec l'argent accumulé, vous pouvez acheter des améliorations pour renforcer vos stats. Par exemple, vous pouvez investir dans une augmentation de dégat pour infliger plus de dégâts à chaque clic. Vous pouvez également augmenter vaux taux de coup critique, ou même acheter un auto-clicker.  
   
+
+[Tester le jeux ici](https://lucas-ribard.students-laplateforme.io/clicker/index.php)
+
   
   ## Consignes :  
   #### Créez votre propre jeu de clic incrémental (idle game). Le but est simple et se déroule en plusieurs étape :  
